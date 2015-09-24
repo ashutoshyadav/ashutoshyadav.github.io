@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Condiment);
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500italic);
+body{
+	padding:0;
+	margin:0;
+	background-color:#E4E4E2;
+}
+body a{
+	text-decoration: none;
+}
+#header{
+	position:fixed;
+	width:100%;
+	background-color:#E84E4E;
+	margin: 0;
+	z-index:100;
+}
+#header a{
+	color:black;
+}
+.header-text{
+	font-size:17px;
+	margin-right:20px;
+	font-family: 'Lobster', cursive;
+	margin-top:15px;
+}
+.right{
+	float:right;
+	cursor: pointer;
+}
+.left{
+	float:left;
+}
+.title{
+	font-size:30px;
+	margin-left:50px;
+	font-family: 'Pacifico', cursive;
+}
+#home{
+	text-align:center;
+	background-color:#FCA06D;
+	padding-bottom:53px;
+}
+#social{
+	position:fixed;
+	margin-top:250px;
+	margin-left:5px;
+}
+#social img{
+
+	width:30px;
+	height:30px;
+}
+#social img:hover{
+	width:40px;
+	height:40px;
+}
+.large-image{
+	width:550px;
+	height:550px;
+	border-radius: 100%;
+	position:relative;
+	margin-left:0%;
+	margin-top:60px;
+}
+.text-over-image{
+	position:absolute;
+	display:block;
+	font-size:50px;
+	left:430px;
+	top:410px;
+	color:#8411BD;
+	font-family: 'Condiment', cursive;
+}
+#about{
+	padding-top:50px;
+	background-color:yellow;
+	padding-bottom:110px;
+}
+.info-bar{
+	color:#F71515;
+	width:250px;
+	height:400px;
+	margin-left:150px;
+	text-align:center;
+	display:inline-block;
+}
+.dashed-line{
+	font-family: 'Oswald', sans-serif;
+}
+.info-bar div{
+	height:250px;
+}
+.info-bar h3{
+	font-size:20px;
+	font-family: 'Bangers', cursive;
+}
+.info-bar p{
+	font-family: 'Roboto', sans-serif;
+}
+#academics{
+	background-color:#00FFD0;
+	color:black;
+}
+.text{
+	font-family: 'Lobster', cursive;
+}
+.text2{
+	font-family: 'Roboto', sans-serif;
+}
+#academics h3{
+	font-size:20px;
+	font-family: 'Bangers', cursive;
+}
+#academics div{
+	margin-left:100px;
+}
+#academics a{
+	text-decoration:none;
+	color:black;
+}
+#contact div{
+	margin-left:100px;
+}
+.text3{
+	font-family: 'Lobster', cursive;
+	font-size:20px;
+}
+.text4{
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+	margin:10;
+}
+#contact{
+	padding-top:100px;
+	padding-bottom:179px;
+	background-color:#E88F26;
+}
