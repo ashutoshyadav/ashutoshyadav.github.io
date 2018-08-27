@@ -21,7 +21,7 @@
 		display: flex;
 	}
 	.container2{
-		min-height: 9500px;
+		min-height: 8500px;
 		overflow: auto;
 		background-color: white
 	}
@@ -92,7 +92,7 @@
 		text-align: justify;
 	}
 	.ed-details{
-		float: right;
+		float: none;
 		text-align: left;
 		margin-left:50px;
 		max-width: 700px;
