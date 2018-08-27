@@ -21,7 +21,7 @@
 		display: flex;
 	}
 	.container2{
-		min-height: 3400px;
+		min-height: 2500px;
 		overflow: auto;
 		background-color: white
 	}
