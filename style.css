@@ -94,7 +94,7 @@
 	.ed-details{
 		float: right;
 		text-align: left;
-		margin-left:-50px;
+		margin-left:-50%;
 		max-width: 700px;
 		text-align: justify;
 		margin-bottom: 50px;
