@@ -92,13 +92,13 @@
 		text-align: justify;
 	}
 	.ed-details{
-		float: left;
+		float: right;
 		text-align: left;
 		margin-left:50px;
 		max-width: 700px;
 		text-align: justify;
 		margin-bottom: 50px;
-		font-size: 30px;
+		font-size: 60px;
 	}
 	.image-card{
 		width: 300px;
