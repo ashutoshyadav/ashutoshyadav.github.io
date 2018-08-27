@@ -2,153 +2,305 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:700i');
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
-body{
-	background-color: white;
-	color: white;
-	height: 100%
-}
-.container{
-	min-height:1247px;
-	width: 100%;
-	width: 99.3vw;
-	display: relative;
-	background-color: black;
-	margin: -15px;
-	position: relative;
-	display: flex;
-}
-.container2{
-	min-height: 2600px;
-	overflow: auto;
-}
-.bg1{
-	background-image: url('images/JPEG_20170423_173343_file-303423329.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.textblack{
-	color:black;
-}
-.paper{
-	background-image: url('images/paper.png');
-	background-repeat: repeat-y;
-	background-position: center;
-	background-attachment: fixed;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.middle{
-	text-align: center;
-	vertical-align: middle;
-	align-items: center;
-	justify-content: center;
-	margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-}
-.blue{
-	background-color: black;
-}
-.ed-card{
-	/*margin: 20px;*/
-	/*margin-bottom: 50px;*/
-	border-width: 10px;
-	border-color: red;
-}
-.ed-title{
-	color:blue;
-	text-shadow: black 20px;
-	font-weight: 300;
-	font-size: 30px;
-	font-family: 'PT Sans', sans-serif;
-	line-height: 1.45;
-	display: block;
-}
-.degree{
-	color: green;
-	font-size: 25px;
-	font-weight: 250;
-	display: block;
-}
-.location{
-	display: grey;
-	display: block;
-}
-.details{
-	text-align: justify;
-}
-.ed-details{
-	float: right;
-	text-align: left;
-	margin-left:50px;
-	max-width: 700px;
-	text-align: justify;
-	margin-bottom: 50px;
-}
-.image-card{
-	width: 300px;
-	height: 250px;
-	border-radius: 10%;
-	display: none;
-	/*margin-left:50px;*/
-	/*margin-top:36px;*/
-}
 
-.italic{
-	font-style: italic;
+@media only screen and (min-width: 768px){
+	body{
+		background-color: white;
+		color: white;
+		height: 100%
+	}
+	.container{
+		min-height:1447px;
+		width: 100%;
+		width: 99.3vw;
+		display: relative;
+		background-color: black;
+		margin: -15px;
+		position: relative;
+		display: flex;
+	}
+	.container2{
+		min-height: 2800px;
+		overflow: auto;
+	}
+	.bg1{
+		background-image: url('images/JPEG_20170423_173343_file-303423329.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	}
+	.textblack{
+		color:black;
+	}
+	.paper{
+		background-image: url('images/paper.png');
+		background-repeat: repeat-y;
+		background-position: center;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	}
+	.middle{
+		text-align: center;
+		vertical-align: middle;
+		align-items: center;
+		justify-content: center;
+		margin: 0;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    margin-right: -50%;
+	    transform: translate(-50%, -50%)
+	}
+	.blue{
+		background-color: black;
+	}
+	.ed-card{
+		/*margin: 20px;*/
+		/*margin-bottom: 50px;*/
+		border-width: 10px;
+		border-color: red;
+	}
+	.ed-title{
+		color:blue;
+		text-shadow: black 20px;
+		font-weight: 300;
+		font-size: 30px;
+		font-family: 'PT Sans', sans-serif;
+		line-height: 1.45;
+		display: block;
+	}
+	.degree{
+		color: green;
+		font-size: 25px;
+		font-weight: 250;
+		display: block;
+	}
+	.location{
+		display: grey;
+		display: block;
+	}
+	.details{
+		text-align: justify;
+	}
+	.ed-details{
+		float: right;
+		text-align: left;
+		margin-left:50px;
+		max-width: 700px;
+		text-align: justify;
+		margin-bottom: 50px;
+	}
+	.image-card{
+		width: 300px;
+		height: 250px;
+		border-radius: 10%;
+		display: none;
+		/*margin-left:50px;*/
+		/*margin-top:36px;*/
+	}
+
+	.italic{
+		font-style: italic;
+	}
+	.size1{
+		font-size: 25px;
+	}
+	.size2{
+		font-size: 50px;
+	}
+	strong{
+		font-weight: 700;
+	}
+	.ptsans{
+		font-family: 'PT Sans', sans-serif;
+	}
+	.dash{
+		width:80px;
+		color:black;
+		display: inline-block;
+		margin: 10px 20px;
+	}
+	.people-card{
+		height:300px;
+		width:500px;
+		border-radius: 10%;
+	}
+	.people-details{
+		display: inline-block;
+		margin:20px;
+	}
+	.people-title{
+		font-size:35px;
+		font-family: 'Great Vibes', cursive;
+	}
+	.contact-container{
+		background-color: white;
+		min-height: 400px;
+	}
+	.contact-card{
+		width:150px;
+		height: 150px;
+		display: inline-block;
+		margin-left: 50px;
+		margin-top:50px;
+	}
+	.black{
+		color:black;
+	}
 }
-.size1{
-	font-size: 25px;
-}
-.size2{
-	font-size: 50px;
-}
-strong{
-	font-weight: 700;
-}
-.ptsans{
-	font-family: 'PT Sans', sans-serif;
-}
-.dash{
-	width:80px;
-	color:black;
-	display: inline-block;
-	margin: 10px 20px;
-}
-.people-card{
-	height:300px;
-	width:500px;
-	border-radius: 10%;
-}
-.people-details{
-	display: inline-block;
-	margin:20px;
-}
-.people-title{
-	font-size:35px;
-	font-family: 'Great Vibes', cursive;
-}
-.contact-container{
-	background-color: white;
-	min-height: 400px;
-}
-.contact-card{
-	width:150px;
-	height: 150px;
-	display: inline-block;
-	margin-left: 50px;
-	margin-top:50px;
-}
-.black{
-	color:black;
+@media only screen and (min-width: 992px){
+	body{
+		background-color: white;
+		color: white;
+		height: 100%
+	}
+	.container{
+		min-height:747px;
+		width: 100%;
+		width: 99.3vw;
+		display: relative;
+		background-color: black;
+		margin: -15px;
+		position: relative;
+		display: flex;
+	}
+	.container2{
+		min-height: 1777px;
+	}
+	.bg1{
+		background-image: url('images/JPEG_20170423_173343_file-303423329.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	}
+	.textblack{
+		color:black;
+	}
+	.paper{
+		background-image: url('images/paper.png');
+		background-repeat: repeat-y;
+		background-position: center;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	}
+	.middle{
+		text-align: center;
+		vertical-align: middle;
+		align-items: center;
+		justify-content: center;
+		margin: 0;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    margin-right: -50%;
+	    transform: translate(-50%, -50%)
+	}
+	.blue{
+		background-color: black;
+	}
+	.ed-card{
+		margin: 20px;
+		margin-bottom: 50px;
+		border-width: 10px;
+		border-color: red;
+	}
+	.ed-title{
+		color:blue;
+		text-shadow: black 20px;
+		font-weight: 300;
+		font-size: 30px;
+		font-family: 'PT Sans', sans-serif;
+		line-height: 1.45;
+	}
+	.degree{
+		color: green;
+		font-size: 25px;
+		font-weight: 250;
+	}
+	.location{
+		display: grey;
+	}
+	.details{
+		text-align: justify;
+	}
+	.ed-details{
+		float: right;
+		text-align: left;
+		margin-left:50px;
+		max-width: 700px;
+		text-align: justify;
+		margin-bottom: 50px;
+	}
+	.image-card{
+		width: 300px;
+		height: 250px;
+		border-radius: 10%;
+		margin-left:50px;
+		margin-top:36px;
+		display: inline-block;
+	}
+
+	.italic{
+		font-style: italic;
+	}
+	.size1{
+		font-size: 25px;
+	}
+	.size2{
+		font-size: 50px;
+	}
+	strong{
+		font-weight: 700;
+	}
+	.ptsans{
+		font-family: 'PT Sans', sans-serif;
+	}
+	.dash{
+		width:80px;
+		color:black;
+		display: inline-block;
+		margin: 10px 20px;
+	}
+	.people-card{
+		height:300px;
+		width:500px;
+		border-radius: 10%;
+	}
+	.people-details{
+		display: inline-block;
+		margin:20px;
+	}
+	.people-title{
+		font-size:35px;
+		font-family: 'Great Vibes', cursive;
+	}
+	.contact-container{
+		background-color: white;
+		min-height: 400px;
+	}
+	.contact-card{
+		width:150px;
+		height: 150px;
+		display: inline-block;
+		margin-left: 50px;
+		margin-top:50px;
+	}
+	.black{
+		color:black;
+	}
+
 }
