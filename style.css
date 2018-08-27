@@ -92,7 +92,7 @@
 		text-align: justify;
 	}
 	.ed-details{
-		float: right;
+		/*float: right;*/
 		text-align: left;
 		/*margin-left:50px;*/
 		max-width: 700px;
