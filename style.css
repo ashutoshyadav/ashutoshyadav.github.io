@@ -23,6 +23,7 @@
 	.container2{
 		min-height: 2800px;
 		overflow: auto;
+		background-color: white
 	}
 	.bg1{
 		background-image: url('images/JPEG_20170423_173343_file-303423329.jpg');
@@ -175,6 +176,7 @@
 	}
 	.container2{
 		min-height: 1777px;
+		background-color: white
 	}
 	.bg1{
 		background-image: url('images/JPEG_20170423_173343_file-303423329.jpg');
