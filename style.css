@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 
-@media only screen and (min-width: 200px){
+@media only screen and (min-width: 10px){
 	body{
 		background-color: white;
 		color: white;
